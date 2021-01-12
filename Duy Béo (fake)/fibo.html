@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <h1>BÀI TOÁN FIBONARCI</h1>
+  </head>
+  <script>
+    let n = parseInt(prompt("Nhập số phần tử mảng a:"));
+    let a = [];
+    if (n > 0) {
+      for (i = 0; i < n; i++) {
+        if (i == 0 || i == 1) {
+          a.push(1);
+        } else {
+          a.push(a[i - 1] + a[i - 2]);
+        }
+      }
+      document.write("chuỗi cần tìm là:" + a);
+    } else {
+      document.write("n không tồn tại");
+    }
+  </script>
+</html>
