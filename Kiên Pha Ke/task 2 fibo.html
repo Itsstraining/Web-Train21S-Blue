@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Bài toán fibo</title>
+</head>
+
+<body>
+    <script>
+        let n = parseInt(prompt("Nhập n"));
+        let b = [];
+        if (n <= 0) {
+            document.write("Vui lòng nhập số lớn hơn 0");
+        }
+        else {
+            for (let i = 0; i < n; i++) {
+                if (i == 0 || i == 1) {
+                    b.push(1);
+                }
+                else {
+                    b.push(b[i - 2] + b[i - 1]);
+                }
+            }document.write("Mảng b=" + b);
+        }
+    </script>
+</body>
+
+</html>
