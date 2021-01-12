@@ -1,0 +1,29 @@
+<html>
+<script>
+
+    let n = parseInt(prompt("Nhập n: "));
+    let a = [];
+    
+    if(n<=0)
+    {
+        document.write("Hôk đc nhập dưới hoặc = 0")
+    }
+    
+    else
+    {
+        for(i=0;i<n;i++)
+        {
+            if(i==0||i==1)
+            {
+                a.push(1)
+            }
+            else
+            {
+                a.push(a[i-1]+a[i-2])
+            }
+        }
+        document.write("Mảng cần tìm sẽ là: " + a)
+    }
+
+</script>
+</html>
