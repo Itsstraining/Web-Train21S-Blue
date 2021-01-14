@@ -1,0 +1,71 @@
+.img {
+  width: 1100px;
+  height: 600px;
+  border-style: double;
+}
+
+#item-list {
+  margin-bottom: 10%;
+}
+.shelf {
+  display: flex;
+  justify-content: center;
+}
+.NavBar {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+}
+body {
+  margin: 0%;
+}
+
+.shelf {
+  margin-top: 10%;
+  background-image: url("./PikPng.com_child-png_327927.png");
+}
+
+.logo-container {
+  width: 15%;
+  height: 45%;
+}
+
+.search-bar {
+  width: 75%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#search-icon {
+  border-style: solid;
+  width: 2%;
+}
+.item-text {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#item-price {
+  color: brown;
+}
+
+#btn {
+  height: 50px;
+  width: 100px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+#buy-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  background-color: gray;
+}
+
+#logo {
+}
