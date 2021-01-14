@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+#navcont{
+    margin-left: 550;
+    font-size: 10px;
+    font-display: ;
+}
+
+#item{
+    border-style: double;
+    margin: 250pt;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: auto;
+    text-align: center;
+    width: auto;
+}
+.itemSize{
+    height: 50%;
+    width: 50%;
+}
+
+#shelf{
+    background-image: url("./abstract-purple-tech-background-vector-668497.jpg");
+}
+#Item-describe{
+
+}
