@@ -1,0 +1,32 @@
+#headiv{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+}
+#header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+#table1{
+    border: solid 10px darkblue;
+}
+#cal{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+#button1{
+    text-align: center;
+ padding-left: 100px;
+ padding-top: 10px;
+
+ }
+#button2{
+    text-align: center;
+    padding-left: 53px;
+    padding-top: 10px;
+}
+#input{
+    padding-left: 150px;
+    text-align: right;
+}
