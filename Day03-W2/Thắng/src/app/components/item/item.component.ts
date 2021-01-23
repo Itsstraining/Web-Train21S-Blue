@@ -13,6 +13,6 @@ export class ItemComponent implements OnInit {
   ngOnInit(): void {
   }
   @Input()
-  public item:Wine;
+  public item :Wine;
 
 }
