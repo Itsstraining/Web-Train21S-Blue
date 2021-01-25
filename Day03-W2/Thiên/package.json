@@ -24,9 +24,17 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+<<<<<<< HEAD:Day03-W2/Thắng/package.json
+    "@angular-devkit/build-angular": "~0.1100.7",
+    "@angular/cli": "~11.0.7",
+    "@angular/compiler-cli": "~11.0.9",
+    "@schematics/angular": "^11.1.0",
+    "@types/jasmine": "~3.6.0",
+=======
     "@angular-devkit/build-angular": "~0.1002.1",
     "@angular/cli": "~10.2.1",
     "@angular/compiler-cli": "~10.2.4",
+>>>>>>> f00b4b50e224f99f789c0a7c0e9f3a90d36eda51:Day03-W2/Thiên/package.json
     "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",

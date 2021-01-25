@@ -12,6 +12,11 @@ export class ItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
+<<<<<<< HEAD:Day03-W2/Thắng/src/app/components/item/item.component.ts
+  @Input()
+  public item :Wine;
+=======
+>>>>>>> f00b4b50e224f99f789c0a7c0e9f3a90d36eda51:Day03-W2/Thiên/src/app/pages/shop/components/item/item.component.ts
 
   @Input()
   public item:Item;
