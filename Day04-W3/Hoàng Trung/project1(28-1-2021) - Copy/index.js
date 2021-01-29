@@ -22,7 +22,7 @@ function connectDB() {
 async function main() {
     try {
         await connectDB();
-        await app.listen(9090, "127.0.0.1", (req, res) => {
+        await app.listen(9090, "127.0.0.1",() => {
             console.log("SV chay duoc r");
         })
     } catch (err) {
